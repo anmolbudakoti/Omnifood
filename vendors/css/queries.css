@@ -1,0 +1,243 @@
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .features{
+        padding: 50px 0;
+    }
+    .featureDesc{
+        text-align: center;
+    }
+    .planDetails{
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .row{
+     grid-template-columns: repeat(2,1fr);
+    } 
+    .featureDesc{
+        text-align: center;
+    }
+    .heroTextbox{
+        top: 30%;
+    }
+    .appScreen{
+        width: 50%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .iconfeature{
+        align-self: center;
+    }
+    form{
+        width: 70%;
+    }
+    .planDetails{
+        gap: 30px;
+        font-size: 15px;
+    }
+    .planBox{
+        width: 240px;
+        height: 450px;
+    }
+    .stepsBox:first-child{
+        margin-top: 75px;
+    }
+ }
+ 
+@media (min-width: 481px) and (max-width: 767px) {
+    .logo{
+        height: 75px;
+    }
+    .navBar{
+        padding: 20px 20px;
+        gap: 20px;
+    }
+    .MainNav{
+        gap: 13px;
+    }
+    .MainNav li a{
+        font-size: 75%;
+    }
+    .heroTextbox{
+        top: 23%;
+    }
+    .heroTextbox h1{
+        font-size: 55px;
+    }
+    .row{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box h3{
+        text-align: center;
+    }
+    .box p{
+        text-align: center;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .featureTitle{
+        font-size: 160%;
+    }
+    .stepDesc{
+        font-size: 17px;
+        width: 60%;
+    }
+    .btn-app{
+        margin-right: 0;
+        height: 38px;
+    }
+    .appScreen{
+        width: 85%;
+    }
+    .stepsBox:first-child{
+        margin-top: 60px;
+    }
+    .stepsBox:last-child{
+        margin-top: 68px;
+    }
+    .workSteps div{
+        height: 50px;
+        width: 50px;
+        margin-right: 15px;
+    }
+    .downloadIcons{
+        margin-right: 10px;
+    }
+    .cityBox{
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+    .reviews{
+        flex-direction: column;
+    }
+    .planDetails{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .planBox{
+        width: 70%;
+    }
+    form{
+        width: 90%;
+    }
+    footer{
+        font-size: 80%;
+    }
+    .socials ion-icon{
+        font-size: 17px;
+    }
+    .footMain{
+        gap: 10px;
+    }
+    .innerbox{
+        width: 75%;
+    }
+}
+
+ @media (max-width: 480px){
+     .row{
+      grid-template-columns: repeat(1,1fr);
+     } 
+     .heroTextbox h1 {
+         font-size: 45px;
+     }
+     .logo{
+         height: 70px;
+     }
+     .MainNav{
+        display: none;
+     }
+     .navBar{
+        padding: 20px 15px;
+     }
+     .heroTextbox .btn{
+        padding: 10px 20px;
+     }
+     .heroTextbox{
+        top: 28%;
+     }
+     .features{
+        padding: 30px 0;
+     }
+     .featureTitle{
+        font-size: 150%;
+     }
+     .featureDesc{
+        text-align: center;
+     }
+     .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box p{
+        text-align: center;
+    }
+    .steps{
+        padding-top: 30px;
+    }
+    .stepsBox:first-child{
+        display: none;
+    }
+    .stepDesc{
+        font-size: 18px;
+    }
+    .workSteps div{
+        margin-right: 15px;
+        height: 45px;
+        width: 45px;
+    }
+    .cityBox{
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+    .reviews{
+        flex-direction: column;
+    }
+    blockquote{
+        text-align: center;
+    }
+    .planDetails{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .planBox{
+        width: 70%;
+        font-size: 15px;
+    }
+    form{
+        width: 90%;
+    }
+    footer{
+        font-size: 80%;
+    }
+    .socials ion-icon{
+        font-size: 17px;
+    }
+    .footMain{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plans{
+        padding: 10px 0;
+    }
+    .formHead .labels{
+        font-size: 16px;
+        width: 50%;
+    }
+    .formHead{
+        gap: 0;
+    }
+    .btn-app{
+        height: 40px;
+    }
+    .workSteps{
+        justify-content: center;
+    }
+  }
